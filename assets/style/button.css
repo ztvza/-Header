@@ -1,0 +1,49 @@
+.button {
+	width: 255px;
+	height: 50px;
+}
+
+.info__button {
+	margin-left: 125px;
+	text-align: center;
+}
+
+.button.-blue {
+	background-color:  #4737FF;
+	border: solid 2px #4737FF; 
+	margin-bottom: 30px;
+}
+
+.button.-white {
+	background-color: #F4F4F4;
+	border: solid 2px  #4737FF; 
+	margin-bottom: 28px;
+}
+
+.Button__learn {
+	text-align: center;
+	color: #000000;
+	opacity: 0.3;
+}
+
+.text__blue {
+	color: #4737FF;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+.text__white {
+	color: #F4F4F4;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}

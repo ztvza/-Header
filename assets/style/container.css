@@ -1,0 +1,30 @@
+.container.-header {
+	width: 1108px;
+	margin: 0 auto;
+}
+
+.container {
+	width: 920px;
+	margin: 0 auto;
+}
+
+@media screen and ( max-width: 1200px ) {
+
+	.container.-header {
+		width: 930px;
+	}
+	
+}
+
+@media screen and (max-width: 930px ){
+	.container.-header {
+		width: 	
+	}
+}
+
+@media screen and ( max-width: 767px ) {
+
+	.container.-header {
+			width: 90%;
+		}
+}

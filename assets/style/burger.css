@@ -1,0 +1,22 @@
+.header__burger {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 34px;
+	height: 14px;
+}
+
+.burger__item{
+	background-color: black;
+	height: 3px;
+}
+
+.burger__item.-t {
+	width: 34px;
+}
+
+.burger__item.-b {
+	width: 18px;
+	margin-left: 16px;
+}

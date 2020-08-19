@@ -1,0 +1,26 @@
+.hero {
+	margin-top: 37px;
+	margin-bottom: 101px;
+}
+
+.hero__info {
+	display: flex;
+}
+
+.about__title {
+	width: 540px;
+	font-style: normal;
+	font-size: 60px;
+	line-height: 70px;
+	color: #F96241;
+}
+
+.about__text {
+	width: 444px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 28px;
+	color: #222222;
+	opacity: 0.7;
+}
