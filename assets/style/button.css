@@ -1,6 +1,12 @@
 .button {
 	width: 255px;
 	height: 50px;
+	transition: 0.5s; /* Время эффекта */
+}
+
+.button:hover {
+	width: 270px;
+	height: 60px;
 }
 
 .info__button {
