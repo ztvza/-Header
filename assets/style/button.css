@@ -53,3 +53,40 @@
 	letter-spacing: 3px;
 	text-transform: uppercase;
 }
+
+@media screen and (max-width: 1200px) {
+	.info__button {
+		margin-left: 50px;
+	}
+}
+
+@media screen and (max-width: 930px){
+	.info__button {
+		display: contents;
+	}
+
+	.button.-blue {
+		margin-top: 50px;
+	}
+
+	.Button__learn {
+		display: block;
+		margin-right: 39%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.Button__learn {
+		display: none;
+	}
+
+	.button {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.button{
+		width: 95%;
+	}
+}

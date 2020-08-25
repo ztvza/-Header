@@ -51,3 +51,44 @@
 	color: #222222;
 	opacity: 0.7;
 }
+
+@media screen and (max-width: 1200px) {
+	.hero__img {
+		width: inherit;
+	}
+}
+
+@media screen and (max-width: 930px ){
+	.hero__info {
+		display: block;
+	}
+
+	.info__button {
+		display: table-caption;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.about__title {
+		width: 400px;
+		font-size: 60px;
+	}
+
+	.hero__line {
+		margin-top: 50px;
+	}
+
+	.about__text {
+		width: 425px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.hero__info {
+		margin-left: 20px;
+	}
+
+	.about__text {
+		width: 320px;
+	}
+}

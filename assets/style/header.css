@@ -3,8 +3,15 @@
 	align-items: center;
 	justify-content: space-between;
 	height: 139px;
+
 }
 
 .header__logo {
 	font-size: 24px;
+}
+
+@media screen and (max-width: 425px) {
+	.header {
+		margin-left: 20px;
+	}	
 }

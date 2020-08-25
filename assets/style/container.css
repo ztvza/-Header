@@ -1,5 +1,5 @@
 .container.-header {
-	width: 1108px;
+	width: 1102px;
 	margin: 0 auto;
 }
 
@@ -9,16 +9,22 @@
 }
 
 @media screen and ( max-width: 1200px ) {
-
 	.container.-header {
 		width: 930px;
 	}
-	
+
+	.container.-hero {
+		width: 850px;
+	}
 }
 
-@media screen and (max-width: 930px ){
+@media screen and ( max-width: 930px ){
 	.container.-header {
-		width: 	
+		width: 767px;
+	}
+
+	.container.-hero {
+		width: 720px;
 	}
 }
 
@@ -27,4 +33,14 @@
 	.container.-header {
 			width: 90%;
 		}
+
+	.container.-hero {
+		width: 425px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+		.container.-header {
+			width: 425px;
+	}
 }
